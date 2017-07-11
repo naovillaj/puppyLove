@@ -1,0 +1,41 @@
+@import "variables";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	box-sizing: border-box;
+}
+
+header{
+	background-image: url("../img/banner.jpg");
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	background-position: center center;
+	height: 90vh;
+	@extend %flex;
+}
+
+.puppyHeader{
+	color: $blanco;
+	margin: 40px 0;
+
+	&__title{
+		font-weight: 700;
+		border: 2px solid $blanco;
+		border-right: none;
+		border-left: none;
+		padding: 5px;
+		@extend %mg-bottom;
+	}
+	&__text{
+		
+	}
+	&__btn{
+		padding: 10px;
+		@extend %mg-top;
+	}
+	&__mas{
+		margin-top: 60px;
+	}
+}

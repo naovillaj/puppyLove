@@ -1,3 +1,39 @@
+.puppyHeader__btn {
+  margin-top: 20px; }
 
+.puppyHeader__title {
+  margin-bottom: 20px; }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box; }
+
+header {
+  background-image: url("../img/banner.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center center;
+  height: 90vh; }
+
+.puppyHeader {
+  color: #ffffff;
+  margin: 40px 0; }
+  .puppyHeader__title {
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    border-right: none;
+    border-left: none;
+    padding: 5px; }
+  .puppyHeader__btn {
+    padding: 10px; }
+  .puppyHeader__mas {
+    margin-top: 60px; }
 
 /*# sourceMappingURL=style.css.map */
