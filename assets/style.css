@@ -1,0 +1,72 @@
+.puppyHeader__mas, .loveContainer__img {
+  margin-top: 80px; }
+
+.puppyHeader__title, .puppyHeader__text, .loveContainer__title, .loveContainer__subtitle {
+  margin-bottom: 20px; }
+
+header, #love {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.bulldog p {
+  padding-bottom: 20px; }
+
+.cachorro p {
+  padding-bottom: 15px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box; }
+
+header {
+  background-image: url("../img/banner.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 90vh; }
+
+.puppyHeader {
+  color: #ffffff;
+  margin: 40px 0; }
+  .puppyHeader__title {
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    border-right: none;
+    border-left: none;
+    padding: 5px; }
+  .puppyHeader__btn {
+    padding: 10px 15px; }
+
+#love {
+  background-color: #2ec8b1;
+  color: #ffffff;
+  padding: 80px 0; }
+
+.loveContainer__img img {
+  padding-right: 30px; }
+
+.charContainer__description {
+  background-color: #313332;
+  color: #ffffff;
+  padding: 0; }
+  .charContainer__description h4 {
+    padding: 80px 0 10px 80px; }
+  .charContainer__description p {
+    padding: 0 80px 75px 80px;
+    margin-bottom: 0; }
+.charContainer__img {
+  padding: 0; }
+  .charContainer__img img {
+    width: 100%;
+    height: 252.922px; }
+
+#bulldog {
+  height: 254px !important;
+  background-color: #655F69 !important; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+{
+  "name": "puppylove",
+  "version": "1.0.0",
+  "description": "puppy app accesibilidad compatibilidad",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naovillaj/puppyLove.git"
+  },
+  "keywords": [
+    "puppy",
+    "app",
+    "accesibilidad",
+    "compatibilidad"
+  ],
+  "author": "Naomi Villanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naovillaj/puppyLove/issues"
+  },
+  "homepage": "https://github.com/naovillaj/puppyLove#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

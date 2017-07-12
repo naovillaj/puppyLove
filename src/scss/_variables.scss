@@ -2,6 +2,7 @@ $blanco: #ffffff;
 $verde: #2ec8b1;
 $verde1: #2D8F78;
 $plomo: #313332;
+$plomo1: #1C2833;
 $morado-bg: #4820a2;
 $morado1: #4531a6;
 $morado2: #3f2d99;
@@ -9,7 +10,7 @@ $morado3: #3b2a8f;
 $morado4: #362685;
 $morado5: #32237d;
 $morado6: #2c1f6c;
-$plomo-bg: rgba(49, 51, 50, 0.4);
+$plomo-bg: rgba(49, 51, 50, 0.8);
 
 
 
@@ -27,13 +28,3 @@ $plomo-bg: rgba(49, 51, 50, 0.4);
   align-items: center;
 }
 
-.bulldog{
-	p{
-		padding-bottom: 20px;
-	}
-}
-.cachorro{
-	p{
-		padding-bottom: 15px;
-	}	
-}
