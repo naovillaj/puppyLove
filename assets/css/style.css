@@ -1,13 +1,19 @@
-.puppyHeader__btn {
-  margin-top: 20px; }
+.puppyHeader__mas, .loveContainer__img {
+  margin-top: 80px; }
 
-.puppyHeader__title {
+.puppyHeader__title, .puppyHeader__text, .loveContainer__title, .loveContainer__subtitle {
   margin-bottom: 20px; }
 
-header {
+header, #love {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.bulldog p {
+  padding-bottom: 20px; }
+
+.cachorro p {
+  padding-bottom: 15px; }
 
 * {
   margin: 0;
@@ -20,6 +26,8 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 90vh; }
 
 .puppyHeader {
@@ -32,8 +40,28 @@ header {
     border-left: none;
     padding: 5px; }
   .puppyHeader__btn {
-    padding: 10px; }
-  .puppyHeader__mas {
-    margin-top: 60px; }
+    padding: 10px 15px; }
+
+#love {
+  background-color: #2ec8b1;
+  color: #ffffff;
+  padding: 80px 0; }
+
+.loveContainer__img img {
+  padding-right: 30px; }
+
+.charContainer__description {
+  background-color: #313332;
+  color: #ffffff;
+  padding: 0; }
+  .charContainer__description h4 {
+    padding: 80px 0 10px 80px; }
+  .charContainer__description p {
+    padding: 0 80px 75px 80px; }
+.charContainer__img {
+  padding: 0; }
+  .charContainer__img img {
+    width: 100%;
+    height: 252.922px; }
 
 /*# sourceMappingURL=style.css.map */
